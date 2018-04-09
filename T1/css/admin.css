@@ -1,0 +1,98 @@
+
+
+#principal h1 {
+	text-align: center;
+	padding-top: 10px;
+}
+#principal h3 {
+	text-align: center;
+	padding: 10px 0 5px 0;
+}
+#principal {
+	
+	height: 500px;
+}
+
+/* CSS SERVICOS */
+
+section#servico {
+	height: 450px;
+}
+section#servicos{
+	height: 180px;
+	width: 80%;
+	margin: 20px 0 20px 10%;
+	overflow: hidden;
+	z-index: 10;
+}
+
+section#servicos h1 {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+section#servicos p {
+	padding-right: 5%;
+	padding-left:  5%;
+	text-align: center;
+}
+section#servicos .text {
+	font-size: 12px;
+	height: 20%;
+	overflow: hidden;
+}
+#servico1, #servico2, #servico3 {
+	width: 30%;
+	margin-left: 1%;
+	height: 130px;
+	float: left;
+	background: white;
+	border: 3px black solid;
+}
+.imagem_servico {
+	margin: 10px 0 0 auto;
+	height:  70%;
+}
+section#estoque .imagem_servico {
+	margin: 10px 0 0 auto;
+	height:  68%;
+}
+}
+section#servicos a {
+	text-decoration: none;
+	color: black;
+}
+
+
+section#estoque {
+	height: 180px;
+	overflow: hidden;
+	width: 80%;
+	margin-left: 10%;
+}
+
+section#estoque .estoq {
+	width: 22%;
+	margin-left: 1%;
+	height: 130px;
+	float: left;
+	font-size: 10px;
+	background: white;
+	border: 3px black solid;
+	
+}
+section#estoque h1 {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+section#estoque a, section#servicos a {
+	text-decoration: none;
+	color: black;
+}
+
+.imagem_estoque {
+	height: 80px;
+	width: 30%;
+	margin-left:35%;
+}

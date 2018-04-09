@@ -1,0 +1,65 @@
+section#servico {
+	height: 600px;
+}
+section#servicos {
+	height: 400px;
+}
+section#servicos p {
+	margin-top: 10px;
+}
+
+section#servicos {
+	cursor: pointer;
+}
+section#servicos a {
+    text-decoration: none;
+	color: #000;
+}
+
+section#servico {
+	height: 500px;
+}
+section#servico h1 {
+	text-align: center;
+}
+
+section#servico #imagem_produto{
+	height: 300px;
+	width: 40%;
+	float: left;
+}
+
+section#servico #descricao_produto{
+	height: 300px;
+	width: 50%;
+	float: left;
+}
+
+
+section#servico #comprar_produto{
+	height: 100px;
+	width: 100%;
+	float:left;
+	color: green;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+section#servico #imagem {
+	width: 90%;
+	margin-left: 5%;
+}
+
+section#servico #comprar_produto button {
+	margin-top: 20px;
+	text-decoration: none;
+	width: 40%;
+	height: 50px;
+	background-color: #0000ff;
+	border: 0;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}

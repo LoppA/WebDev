@@ -1,0 +1,25 @@
+section#lista{
+	width: 100%;
+	overflow: hidden;
+	margin: 20px;
+}
+
+section#lista h1{
+	font-size: 30px;
+}
+
+#tabela-lista{
+	width: 100%;
+	font-size: 20px;
+}
+
+#tabela-lista th{
+	border: 1px solid #ddd;
+	font-weight: bold;
+	padding:15px;
+}
+
+#tabela-lista td{
+	border: 1px solid #ddd;
+	padding:10px;
+}

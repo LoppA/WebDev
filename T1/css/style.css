@@ -1,0 +1,213 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+}
+
+header {
+	height: 120px;
+	width: 100%;
+	background: #FCFCFA;
+	position: relative;
+}
+#imagem_logo {
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+#login {
+	float: right;
+	width: 20%;
+	position: absolute;
+	bottom: 0;
+	right: 1%;
+	margin-bottom: 10px
+}	
+#login input {
+	width: 60%;
+}
+#login #usuario {
+	margin-bottom: 10px;
+}
+#login #senha {
+	margin-bottom: 10px;
+}
+#login .text {
+	float: left;
+	width: 30%;
+	text-align: right;
+	padding-right: 10px;
+}
+#login #submit {
+	width: 100%;
+	margin-right: 20px;
+	position: relative;
+	padding-left: 10px;
+}
+#login #submit button {
+	width: 62%;
+	margin-left: 30%;
+	
+	text-align: center;
+	left: 50%;
+}
+nav {
+	height: 50px;
+	width: 100%;
+    background-color:#EDEDED;
+	font-size: 18px;
+	overflow: hidden;
+}
+	
+nav ul {
+	list-style: none;
+	height: 100%;
+	margin-left: 30%;
+}
+
+nav ul li {
+	display: inline;
+	height: 100%;
+}
+
+nav ul li a {
+	height: 100%;
+    display: inline-block;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+
+    /* visual do link */
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+	padding-top: 10px;
+}
+nav ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+
+footer {
+	height: 20px;
+	border-top: solid 1px black;
+	width: 100%;
+	text-align: center;
+}
+.w3-red {
+	background-color:red;
+	border: none;
+}
+.left {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.right {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+section#slider {
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+}
+
+/* CSS SERVICOS */
+
+
+section#servicos{
+	height: 300px;
+	width: 80%;
+	margin: 20px 0 20px 10%;
+	overflow: hidden;
+	z-index: 10;
+}
+
+section#servicos h1 {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+section#servicos p {
+	padding-right: 5%;
+	padding-left:  5%;
+	text-align: center;
+}
+section#servicos .text {
+	font-size: 12px;
+	height: 40%;
+	overflow: hidden;
+}
+#servico1, #servico2, #servico3 {
+	width: 30%;
+	margin-left: 1%;
+	height: 230px;
+	float: left;
+	background: white;
+	border: 3px black solid;
+}
+.imagem_servico {
+	margin: 10px 0 0 auto;
+	height:  50%;
+}
+
+/*CSS PRODUTOS */
+
+section#produtos{
+	height: 600px;
+	width: 80%;
+	margin: 20px 0 20px 10%;
+	overflow: hidden;
+	z-index: 10;
+}
+
+section#produtos h1 {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+section#produtos p {
+	padding-right: 5%;
+	padding-left:  5%;
+	text-align: center;
+}
+section#produtos .text {
+	height: 40%;
+	font-size: 12px;
+	overflow: hidden;
+}
+.prod {
+	width: 30%;
+	margin-left: 1%;
+	margin-top: 10px;
+	height: 230px;
+	float: left;
+	background: white;
+	border: 3px black solid;
+}
+.imagem_produto {
+	margin: 10px 0 0 10%;
+	height:  50%;
+}
+
+section#produtos .nome_produto {
+	text-align: center
+}
+section#produtos .preco_produto {
+	text-align: center;
+	color:green;
+}
+section.page_produtos p {
+	margin-top: 10px;
+}
+section.page_produtos .prod {
+	cursor: pointer;
+}
+section.page_produtos a {
+    text-decoration: none;
+	color: #000;
+}

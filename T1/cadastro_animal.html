@@ -1,0 +1,67 @@
+﻿<!doctype html>
+<html>
+<head>
+	<title> Lista de Animais </title>
+	<meta charset="ISO-8859-1" />
+	<link href="css/style.css" rel="stylesheet" />
+	<link href="css/cadastro_animal.css" rel="stylesheet" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+	<header>
+		<div id="imagem_logo">
+			<img src="images/logo.jpg" width="100%" height="100%"/>
+		</div>
+		
+		<div id="login">
+			<div id="usuario">
+				<div class="text"> Usuário </div>
+				<input type="text" />
+			</div>
+			<div id="senha">
+				<div class="text"> Senha</div>
+				<input type="password" />
+			</div>
+			<div id="submit">
+				<button type="submit">Confirmar</button>
+			<div>
+		</div>
+	</header>
+	<nav>
+		<ul>
+			<li> <a href="index.html"> Home </a> </li>
+			<li> <a href="index.html"> Serviços </a> </li>
+			<li> <a href="produtos.html"> Produtos </a> </li>
+			<li> <a href="index.html"> Contato </a> </li>
+			<li> <a href="index.html"> Area do Cliente </a> </li>
+		</ul>
+	</nav>
+	
+	<section id="cadastro">
+		<h1>Cadastro de Animais</h1>
+
+		<form id="formulario">
+			Nome:<br>
+			<input type="text" name="nome" size="30"><br>
+			Cliente:<br>
+			<input type="text" name="cliente" size="30"><br>
+			Tipo:<br>
+			<select name="tipo" id="tipo">
+				<option value="cachorro">Cachorro</option>
+				<option value="gato">Gato</option>
+			</select> <br>
+			Raça:<br>
+			<input type="text" name="raca" size="30"><br>
+			Foto:<br>
+			<input type="file" name="foto"><br><br>
+			<button type="button">Cadastrar</button>
+		</form>
+	</section>
+	
+	<footer>
+		Todos os direitos reservados
+	</footer>
+	
+</body>
+</script>

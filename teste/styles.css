@@ -1,0 +1,23 @@
+body {
+	background-color: powderblue;
+}
+
+h6 {
+	color: blue;
+	font-family: verdana;
+}
+
+p {
+	color: red;
+	font-family: courier;
+	border: 1px solid green;
+	padding: 30px;
+}
+
+#h301 {
+	color: blue;
+}
+
+p.myclass {
+	color: darkgreen;
+}

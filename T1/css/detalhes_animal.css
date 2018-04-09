@@ -1,0 +1,56 @@
+section#animal{
+	width: 100%;
+	overflow: hidden;
+}
+
+section#animal h1{
+	font-size: 35px;
+}
+
+section#animal .campo{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#descricao-animal{
+	float: left;	
+	margin-left: 100px;
+}
+
+#servicos-animal{
+	margin-left: 500px;
+}
+
+#tabela-descricao{
+	width: 100%;
+	font-size: 18px;
+}
+
+#tabela-descricao td{
+	border: 1px solid #ddd;
+	padding: 2px;
+}
+
+#tabela-servicos{
+	width: 80%;
+	font-size: 20px;
+	border-collapse: collapse;
+}
+
+#tabela-servicos th{
+	border: 1px solid #ddd;
+	font-weight: bold;
+	padding: 10px;
+}
+
+#tabela-servicos td{
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+#valor-total{
+	float: right;
+	margin-right: 20%;
+	font-size: 25px;
+	color: green;
+}

@@ -1,0 +1,25 @@
+section#produtos #imagem_produto{
+	height: 300px;
+	width: 40%;
+	float: left;
+}
+section#produtos {
+	height: 400px;
+	overflow: hidden;
+}
+
+section#produtos #descricao_produto{
+	height: 300px;
+	width: 40%;
+	float: left;
+}
+
+
+section#produtos #comprar_produto{
+	height: 100px;
+	width: 20%;
+	float:left;
+	color: green;
+	font-size: 20px;
+	font-weight: bold;
+}

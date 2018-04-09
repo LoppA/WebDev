@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>LoppA</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+
+	<body>
+		<h1>Header</h1>
+		<p style="color:Tomato;">Paragraph 1</p>
+		<p title="I'm a tooltip">Paragraph 2</p>
+		<a href="https://www.github.com/LoppA">Link</a>
+		<h2 style="background-color:powderblue; font-family:courier; border:2px solid MediumSeaGreen;">Heading 2</h2>
+		<p class="myclass">Paragraph 3</p>
+		<h6 style="text-align:center;">Heading 6</h6>
+		<p class="myclass">Paragraph 4</p>
+
+		<img src="images/fox_1.jpg" alt="fox sleeping" width="250" height="166">
+
+		<br	/>
+		<button>Click</button>
+		<hr />
+
+		<h3 id="h301"> Unordered/Bullet List </h3>
+		<ul>
+			<li> Coffe </li>
+			<li> Tea </li>
+			<li> Milk </li>
+		</ul>
+
+		<h3> Ordered/Numbered List </h3>
+		<ul>
+			<li> Coffe </li>
+			<li> Tea </li>
+			<li> Milk </li>
+		</ul>
+
+		<h1 style="font-size:60px;"> Heading h1, 60px</h1>
+
+		 <pre>
+	My Bonnie lies over the ocean.
+
+	My Bonnie lies over the sea.
+
+	My Bonnie lies over the ocean.
+			   
+	Oh, bring back my Bonnie to me.
+		 </pre> 
+	</body>
+</html>
