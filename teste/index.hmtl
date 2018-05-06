@@ -15,10 +15,10 @@
 		<h6 style="text-align:center;">Heading 6</h6>
 		<p class="myclass">Paragraph 4</p>
 
-		<img src="images/fox_1.jpg" alt="fox sleeping" width="250" height="166">
+		<img src="images/fox_1.jpg" alt="fox sleeping" width="250" height="166" id="imagem_1">
 
 		<br	/>
-		<button>Click</button>
+		<button onclick="confirm('Ok?')">Click</button>
 		<hr />
 
 		<h3 id="h301"> Unordered/Bullet List </h3>
