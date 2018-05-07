@@ -107,6 +107,8 @@
 					return;
 				}
 				document.getElementById('res').value = (n1 + n2)/2.0;
+				document.getElementById('nota1').value = "";
+				document.getElementById('nota2').value = "";
 			}	
 
 			var canvas = document.getElementById('canvas');
