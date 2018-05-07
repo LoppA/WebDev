@@ -1,0 +1,36 @@
+<html>
+<head>
+  <style>
+    div {
+      padding: 10px;
+    }
+    .coef{
+      background: yellow;
+      border: 1px solid red;
+    }
+	.titulo{
+      color: blue;
+	}
+  </style>
+
+  <script>
+      function impar() {
+          let num = parseInt(document.getElementById("a").value);
+		  let i;
+		  let s = 0;
+          for (i=1; i <= num; i += 2) {
+          	s = s + i;
+          }
+          document.getElementById("soma").innerHTML = s;
+      }
+  </script>
+</head>
+<body>
+<h1 class="titulo">Soma dos Impares </h1>
+
+<div> Ateh: <input type="text" id="a"/> 
+  <button onclick="impar()">calculate</button>
+  <div> Soma= <span class="coef" id="soma">?</span> </div>
+</div>
+</body>
+</html>

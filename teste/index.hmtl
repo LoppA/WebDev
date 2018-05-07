@@ -52,11 +52,20 @@
 	Oh, bring back my Bonnie to me.
 		 </pre> 
 
-		 <input id="txtValue_1" type="text"/> 
-		 <button id="valButton">validate</button>
+		<input id="txtValue_1" type="text"/> 
+		<button id="valButton">validate</button>
 
-		 <input id="txtValue_2" type="text"/> 
-		 <button onclick="validate()">validate</button>
+		<input id="txtValue_2" type="text"/> 
+		<button onclick="validate()">validate</button><br />
+		<canvas id="canvas"></canvas><br />
+
+		<form>
+		  <h1 id="lab1"> Example: </h1>
+		  <input id="nota1" NAME="text1" TYPE=Text/>
+		  <input id="nota2" NAME="text2" TYPE=Text/>
+		  <input id="res" NAME="text3" TYPE=Text/>
+		  <input NAME="submit" TYPE=Button VALUE="Show Me" onClick="media(document.getElementById('nota1').value, document.getElementById('nota2').value)"/>
+		</form>
 
 		<script>
 			function changeFox() {
@@ -85,6 +94,25 @@
 				if (name === null || name === "") 
 					alert ("please enter valid value");
 			}
+
+			function media(nota1, nota2) {
+				if (nota1 === null || nota1 === "" || nota2 === null || nota2 === "") {
+					alert("enter valid values");
+					return;
+				}
+				const n1 = parseInt(nota1);
+				const n2 = parseInt(nota2);
+				if (isNaN(n1) || isNaN(n2)) {
+					alert("enter valid values");
+					return;
+				}
+				document.getElementById('res').value = (n1 + n2)/2.0;
+			}	
+
+			var canvas = document.getElementById('canvas');
+			var ctx = canvas.getContext('2d');
+			ctx.fillStyle = 'blue';
+			ctx.fillRect(15, 10, 100, 100);
 		</script>
 	</body>
 </html>
