@@ -3,6 +3,7 @@
 	<head>
 		<title>LoppA</title>
 		<link rel="stylesheet" href="styles.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	</head>
 
 	<body>
@@ -15,7 +16,11 @@
 		<h6 style="text-align:center;">Heading 6</h6>
 		<p class="myclass">Paragraph 4</p>
 
-		<img src="images/fox_1.jpg" alt="fox sleeping" width="250" height="166" id="imagem_1">
+		<img src="images/fox_1.jpg" alt="fox sleeping" width="250" height="166" id="img_1">
+
+		<br	/>
+		<button onclick="changeFox()">Another Fox</button>
+		<hr />
 
 		<br	/>
 		<button onclick="confirm('Ok?')">Click</button>
@@ -46,5 +51,40 @@
 			   
 	Oh, bring back my Bonnie to me.
 		 </pre> 
+
+		 <input id="txtValue_1" type="text"/> 
+		 <button id="valButton">validate</button>
+
+		 <input id="txtValue_2" type="text"/> 
+		 <button onclick="validate()">validate</button>
+
+		<script>
+			function changeFox() {
+				let img =  document.getElementById("img_1");
+
+				let path = img.src;
+				let imgNumber = path[path.length - 5];
+
+				if (imgNumber === '1') {
+					img.src = "images/fox_2.jpg";
+					img.width = 111;
+				} else {
+					img.src = "images/fox_1.jpg";
+					img.width = 250;
+				}
+			}
+			$(document).ready(function(){
+	   			$("#valButton").click(function(){
+					const name = $("#txtValue_1").val();
+					alert("Name: " + name);
+				});
+			});
+
+			function validate() {
+				const name = $("#txtValue_2").val();
+				if (name === null || name === "") 
+					alert ("please enter valid value");
+			}
+		</script>
 	</body>
 </html>
