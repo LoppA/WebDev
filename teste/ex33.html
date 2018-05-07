@@ -1,0 +1,22 @@
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+      $(document).ready(function(){
+          $(".smp1").click(function(){
+              $("#bt1").hide();
+          });
+          $("#bt1").click(function(){
+              $("p").hide();
+			  $("#header").text("OK");
+          });
+      });
+  </script>
+</head>
+<body>
+	<h2 id="header" class="smp1">This is a heading</h2>
+	<p class="smp1">This is a paragraph.</p>
+	<p>This is another paragraph.</p>
+	<button id="bt1">Modify</button>
+</body>
+</html>
