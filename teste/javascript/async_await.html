@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<script>
+			"use strict"
+
+			async function f() {
+				let promise = new Promise((resolve, reject) => {
+					setTimeout(() => resolve("done!"), 1000);
+				});
+
+				let result = await promise;
+
+				alert(result);
+			}
+			f();
+		</script>
+	</body>
+<html>
