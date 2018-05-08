@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<script>
+			"use strict"
+
+			function loadScript(src) {
+				return new Promise(function(resolve, reject) {
+					let script = document.createElement('script');
+					script.src = src;
+
+					script.onload = () => resolve(script);
+					script.onerror = () => reject(new Error('Script load error: ' + src));
+
+					document.head.append(script);
+				});
+			}
+
+			let promise_script = loadScript('hello.js');
+			promise_script.then(
+				script => alert(`${script.src} is loaded!`),
+				error => alert(`Error: ${error.message}`)
+			);
+
+			promise_script.then(script => alert('Mais 1'));
+
+			var promise = new Promise(function(resolve, reject) {
+				console.log(resolve);
+				console.log(reject);
+
+				setTimeout(() => resolve("done!"), 1000);
+			});
+
+			promise.then(
+				result => alert(result),
+				error => alert(error)
+			);
+		</script>
+	</body>
+<html>

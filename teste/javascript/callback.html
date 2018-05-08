@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<script>
+			"use strict"
+
+			function loadScript(src, callback) {
+				let script = document.createElement('script');
+				script.src = src;
+
+				script.onload = () => callback(null, script);
+				script.onerror = () => callback(new Error(`Script load error for ${src}`));
+
+				document.head.append(script);
+			}
+			loadScript('hello.js', function(error, script) {
+				if (error) {
+					console.log(`${error}`);
+				} else {
+					console.log(`${script.src} is loaded`);
+					console.log(hello('2'));
+				}
+			});
+		</script>
+	</body>
+<html>
