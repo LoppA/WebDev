@@ -16,6 +16,12 @@
 			return result;
 		}
 
+/*		function doubleAfter2Seconds(x) {
+			return new Promise((resolve, reject) => {
+				setTimeout(() => resolve(x*2), 2000);
+			});
+		}
+*/
 		async function addPromise(x) {
 			let a, b, c;
 			a = await doubleAfter2Seconds(10);
