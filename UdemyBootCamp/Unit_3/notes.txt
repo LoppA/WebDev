@@ -1,0 +1,6 @@
+MDN -> Mozilla Developer Network. References, Guides, Tutorials.
+
+https://web.archive.org/web/20151206134313/https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction
+
+mdn element reference
+mdn attribute reference
